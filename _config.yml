@@ -1,0 +1,12 @@
+# Site settings
+title: Technology & Life
+email: itzernel@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My personal blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://zernel.github.io" # the base hostname & protocol for your site
+twitter_username: zernel_guan
+github_username:  guan
+
+# Build settings
+markdown: kramdown
