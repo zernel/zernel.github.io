@@ -5,7 +5,7 @@ category: Technology
 tags: Ruby scope
 ---
 
-###《Ruby 元编程》学习笔记
+《Ruby 元编程》学习笔记
 
 **作用域**可以理解成变量在此位置上的可视区域。一般而言，可运行的代码是由代码体本身及一组 *Binding* 组成的，*Binding* 就是一个用对象表示的完整作用域，它们之间的关系可见下图：
 
