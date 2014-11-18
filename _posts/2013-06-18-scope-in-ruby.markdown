@@ -9,7 +9,7 @@ tags: Ruby scope
 
 **作用域**可以理解成变量在此位置上的可视区域。一般而言，可运行的代码是由代码体本身及一组 *Binding* 组成的，*Binding* 就是一个用对象表示的完整作用域，它们之间的关系可见下图：
 
-![Binding](/assets/images/scope-in-ruby.png)
+![Binding]({{ site.url }}/assets/images/scope-in-ruby.png)
 
 那么，怎么样才算是一个作用域呢？Ruby 会在以下三种情况关闭前一个作用域，同时打开一个新的作用域：
 
