@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zernel.github.io" # the base hostname & protocol for your site
 twitter_username: zernel_guan
-github_username:  guan
+github_username:  zernel
 permalink: /blog/:categories/:year-:month/:title/
 paginate_path: "blog/page:num"
 paginate: 5
