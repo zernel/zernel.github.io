@@ -5,20 +5,17 @@ category: Technology
 tags: tmux linux vim
 ---
 
-### Install
-$ brew install tmux
-
-### Prefix
-Default: Ctrl-b
-Customize: ~/.tmux.conf
-```
-  unbind C-b
-  set -g prefix C-a
-```
-
-### Relation
+#### Container Relation
 * Session has_many Window
 * Window has_many Pane
+
+### Prefix
+**Default:** Ctrl-b
+
+**Customize:** ~/.tmux.conf
+
+      unbind C-b
+      set -g prefix C-a
 
 ### Pane
 
